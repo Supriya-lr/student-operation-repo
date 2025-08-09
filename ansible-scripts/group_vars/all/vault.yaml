@@ -1,0 +1,3 @@
+vault_tomcat_admin_user: "admin"
+vault_tomcay_admin_password: "HappyWelcome@2025"
+ssh_username: ec2-user

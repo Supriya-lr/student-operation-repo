@@ -1,0 +1,11 @@
+---
+- name: Deploy Tomcat Application Server
+  hosts: tomcatServer
+  remote_user: ec2-user
+  become: yes
+  gather_facts: false
+  vars_files:
+    group_vars/all/vault.yml
+
+  roles:
+    - tomcat
